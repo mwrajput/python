@@ -12,6 +12,7 @@ Concept of Python Used here:
 2)Condition
 3)Function Uses
 4)How to Generate Random values 
+5)Convert input to upperCase or LowerCase
 
 
 
@@ -52,7 +53,7 @@ def rock_paper_scissor_game():
     items_list = ["rock","paper","scissor"]
     
     # taking input
-    user_input = input("Choose Rock, paper, scissor : ")
+    user_input = input("Choose Rock, paper, scissor : ").lower()
     comp_choices = random.choice(items_list)
     
     print(f"\nYour Choice : {user_input} \nComputer Choice : {comp_choices}")

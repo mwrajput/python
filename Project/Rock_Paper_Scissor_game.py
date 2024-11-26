@@ -1,10 +1,12 @@
 """
     Rock Paper Scissor Game
-    
-    In this game, you can
+
+    In this game, we
     
     1. play against the computer
-    computer will choose a random (rock, paper, scissor)
+    computer will choose a random (rock, paper, scissor).
+    2) Input From user (rock, paper, scissor)
+    3) Print result (Win, Lose, Draw)
     
 Concept of Python Used here:
 

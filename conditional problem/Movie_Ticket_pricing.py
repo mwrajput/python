@@ -9,7 +9,6 @@ WorkFlow Details:
     Special Discount to Everyone:
         Everyone gets a $2 discount on wednesday
 
-
 """
 
 age = int(input('Enter your Age : '))

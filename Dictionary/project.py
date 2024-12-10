@@ -20,8 +20,19 @@ studentGrades["Ali"] = 95
 studentGrades ["waqas"] = 100
 studentGrades["Ahmed"] = 70
 
+# del studentGrades["Ali"] 
+# del studentGrades["Ahmed"] 
 
+# while True:
+#     # Ask for the student's name
+#     name =  input("Enter the student's name (or type 'done' to finish): ")  
+#     if name.lower() == "done":
+#         break
+#     grade = input("Enter the grade : ")
+    
+#     studentGrades[name] = grade
 
+print(studentGrades)
 
 # for value in grades.values():
 #     print(value)
@@ -32,14 +43,5 @@ studentGrades["Ahmed"] = 70
 # for keys,values in grades.items():
 #     print(keys,values)
 
-# how to get value from user
-
-# while True:
-#     # Ask for the student's name
-#     name =  input("Enter the student's name (or type 'done' to finish): ")  
-#     if name.lower() == "done":
-#         break
-#     grade = input("Enter the grade : ")
-    
-#     studentGrades[name] = grade
+# print("Ahmed" in studentGrades)
 

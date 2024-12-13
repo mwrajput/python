@@ -23,11 +23,12 @@ def add_movie():
     # Add a new movie to the collection
     title = input("Enter Movie Name: ")
     genre = input("Enter Movie Genre (e.g., Action, Comedy): ")
-    release_year = input("Enter Release Year: ")
+    release_year = input("Enter Release Year: ").strip()
+
     
     while not (release_year.isdigit() and len(release_year) == 4):
         print("Invalid year. Please enter a 4-digit number.")
-        release_year = input("Enter Release Year: ")
+        release_year = input("Enter Release Year: ").strip()
 
     
     if title in movie_collection:

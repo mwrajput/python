@@ -6,5 +6,4 @@
 6. Static Method
 7. Property Decorators
 8. Class Inheritance And isintance() Function
-9.  Multiple Inheritance
-10.
+9. Polymorphism

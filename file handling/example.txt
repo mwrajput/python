@@ -1,0 +1,5 @@
+Read a File: Open a text file and print its contents.
+Word Count: Count the number of words in a text file.
+Line Numbers: Write a program to add line numbers to each line of a file.
+Copy File: Create a program that copies content from one file to another.
+File Operations: Create a menu-driven program to create, read, write, and delete files.

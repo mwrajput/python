@@ -20,12 +20,10 @@ def add_videos(name,time):
     conn.commit()
 
 def update_videos(vid_id,new_name,new_time):
-    list_videos()
     cursor.execute("UPDATE videos SET name = ? ,time = ? where id = ?",(new_name, new_time,vid_id))
     conn.commit()
 
 def delete_videos(vid_id):
-    list_videos()
     cursor.execute("DELETE FROM videos WHERE id = ?",(vid_id,))
     conn.commit()
 
